@@ -2683,7 +2683,8 @@ a:hover {
 .top-page-panel .ttl,
 .top-page-panel h1,
 .top-page-panel h5 {
-    font-family: roboto-medium-webfont, Arial, sans-serif;
+    /*font-family: roboto-medium-webfont, Arial, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     font-size: 47px;
     line-height: 47px;
     color: #fff;
@@ -2710,7 +2711,10 @@ a:hover {
     border-radius: 4px;
     padding: 12px 19px 11px;
     color: #fff;
-    font: 15px/1 roboto-bold-webfont, sans-serif;
+    /*font: 15px/1 roboto-bold-webfont, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
@@ -18533,7 +18537,8 @@ a:hover .fss-step-number em {
     font-size: 50px
 }
 .top-section .s-left strong {
-    font-family: roboto-medium-webfont, Sans-Serif
+    /*font-family: roboto-medium-webfont, Sans-Serif*/
+    font-family: 'Roboto', sans-serif;
 }
 .top-section .s-right {
     position: relative;

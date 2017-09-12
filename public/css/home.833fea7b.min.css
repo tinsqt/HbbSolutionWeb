@@ -29,7 +29,8 @@ ul {
     margin: 0;
     padding: 0;
     outline: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 footer,
 header,
@@ -59,7 +60,7 @@ html,
 input,
 select,
 textarea {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 body>iframe {
     display: none
@@ -182,7 +183,7 @@ html {
 }
 body {
     /* font: 12px/1.2 Arial, sans-serif; */
-	font-family:'MYRIADPRO';
+    font-family:'MYRIADPRO';
     background: #fff;
     height: 100%;
     width: 100%
@@ -329,7 +330,7 @@ a:hover {
 }
 @font-face{
 	font-family:'BOLD';
-		src:url(../fonts/MYRIADPRO-BOLD.OTF);
+  src:url(../fonts/MYRIADPRO-BOLD.OTF);
 }
 @font-face {
     font-family: roboto-black-webfont;
@@ -391,7 +392,7 @@ a:hover {
 }
 .logo a {
     background: url(../asset/images/logo1.png) no-repeat;
-	background-size: 200px 80px;
+    background-size: 200px 80px;
     display: block;
     height: 80px;
     width: 200px;
@@ -501,7 +502,9 @@ a:hover {
     border-left: 1px solid #DADADA;
     color: #90c404!important;
     padding-right: 2px!important;
-    font-family: roboto-black-webfont, Arial, sans-serif!important
+    /*font-family: roboto-black-webfont, Arial, sans-serif!important;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .btn-raq:after {
     content: "»";
@@ -809,7 +812,7 @@ a:hover {
     color: #0477ae;
     margin-bottom: 20px;
     font: 36px/1.3 roboto-bold-webfont, Arial, Helvetica, Sans-Serif;
-	font-family:'MYRIADPRO';
+    font-family:'MYRIADPRO';
     letter-spacing: -1px
 }
 .subscribe-form {
@@ -848,7 +851,9 @@ a:hover {
     font-size: 17px;
     padding: 15px 40px;
     cursor: pointer;
-    height: 53px
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .subscribe-form .btn-simple:after {
     border-color: #fff
@@ -1128,7 +1133,10 @@ a:hover {
     position: relative;
     text-align: center;
     font: 36px roboto-bold-webfont, Arial, Helvetica, Sans-Serif;
-    margin-top: -80px
+    margin-top: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
 }
 .location-ttl svg {
     display: inline-block;
@@ -1329,7 +1337,10 @@ a:hover {
     margin: 20px auto 0
 }
 .bfm-awards .txt {
-    font: 38px 'Roboto Bold Condensed', sans-serif;
+    /*font: 38px 'Roboto Bold Condensed', sans-serif;*/
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 38px;
+    font-weight: bold;
     color: #0078ae;
     padding: 0 0 20px
 }
@@ -1342,7 +1353,9 @@ a:hover {
     display: inline-block;
     font-size: 21px;
     padding: 12px 40px 14px;
-    border-radius: 22px
+    border-radius: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .rd-holder {
     overflow: hidden;
@@ -1429,7 +1442,10 @@ a:hover {
 }
 .hs-left .btn-raq {
     display: inline-block;
-    font: 18px/1.3 roboto-medium-webfont, Arial, Helvetica, sans-serif;
+    /*font: 18px/1.3 roboto-medium-webfont, Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 18px;
+    font-weight: bold;
     position: relative;
     z-index: 3;
     margin: 30px 0 40px;
@@ -1759,12 +1775,16 @@ a:hover {
     z-index: 3
 }
 .hs-left .hsl-subcaption {
-    font: 22px/1.35 roboto-light-webfont, Arial, Helvetica, Sans-Serif;
+    /*font: 22px/1.35 roboto-light-webfont, Arial, Helvetica, Sans-Serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 22;
     padding: 22px 60px 0 0;
     color: #444
 }
 .hs-left .hsl-subcaption strong {
-    font: 22px/1.3 roboto-medium-webfont, Arial, Helvetica, Sans-Serif
+    /*font: 22px/1.3 roboto-medium-webfont, Arial, Helvetica, Sans-Serif*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 22;
 }
 .hs-left .general-text {
     font: 32px/1.3 roboto-regular-webfont, Arial, Helvetica, Sans-Serif
@@ -1773,7 +1793,10 @@ a:hover {
     font-family: roboto-bold-webfont, Arial, Helvetica, Sans-Serif
 }
 .hs-left .general-text h1 {
-    font: 65px/1.3 roboto-medium-webfont, Arial, Helvetica, Sans-Serif
+    /*font: 65px/1.3 roboto-medium-webfont, Arial, Helvetica, Sans-Serif*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
 }
 .hs-sub-row {
     background: 0 0;
@@ -1828,7 +1851,7 @@ a:hover {
 .client-logo-item,
 .client-logo-item:before {
     background-image: url(../images/home/logos1.png);
-	
+
     background-repeat: no-repeat
 }
 .cl-pg,
@@ -1916,7 +1939,7 @@ a:hover {
 }
 .section-title h2 {
     font: 57px/1 roboto-light-webfont, sans-serif;
-	
+
     color: #fff;
     margin: 0 0 10px
 }
@@ -2118,7 +2141,7 @@ html.mm-iphone-addressbar body {
 .btn-simple {
     display: inline-block;
     font: 18px/18px roboto-black-webfont, Arial, Helvetica, sans-serif;
-	font-family: 'bold';
+    font-family: 'bold';
     color: #fff;
     padding: 9px 40px;
     text-shadow: 0 -1px 0 #447523;
@@ -2205,7 +2228,7 @@ html.mm-iphone-addressbar body {
 .rd-box .txt {
     color: #009ddc;
     font: 42px/1.3 'Roboto Bold Condensed', sans-serif;
-	font-family:'MYRIADPRO';
+    font-family:'MYRIADPRO';
     display: inline-block
 }
 .rd-box .btn-simple {
@@ -2219,7 +2242,9 @@ html.mm-iphone-addressbar body {
     min-width: 250px;
     position: relative;
     top: -5px;
-    color: #fff
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .rd-box .btn-simple:hover {
     color: #fff
@@ -2435,7 +2460,7 @@ html.mm-iphone-addressbar body {
 }
 .full-services-section h2 {
     font: 50px/1.1 roboto-light-webfont, sans-serif;
-	font-family:'MYRIADPRO';
+    font-family:'MYRIADPRO';
     color: #0078ae;
     text-align: center;
     margin: 0 0 50px
@@ -2558,7 +2583,7 @@ a:hover .fss-step-number em {
 }
 .tab-text {
     font: 24px/1.1 roboto-bold-webfont, sans-serif;
-	font-family:'BOLD';
+    font-family:'BOLD';
     color: #a0a0a0;
     text-align: center;
     display: block;
@@ -2627,7 +2652,7 @@ a:hover .fss-step-number em {
     width: 42.1%;
     padding: 0 48px 0 0;
     font: 33px/1.2 roboto-bold-webfont, sans-serif;
-	font-family:'MYRIADPRO';
+    font-family:'MYRIADPRO';
     color: #0078ae
 }
 .tabs-content p {
@@ -3268,7 +3293,7 @@ a:hover .fss-step-number em {
 }
 .industry-section h2 {
     font: 57px/1.1 roboto-bold-webfont, sans-serif;
-	font-family:'BOLD';
+    font-family:'BOLD';
     text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
     margin-bottom: 10px
 }
@@ -3432,7 +3457,10 @@ a:hover .fss-step-number em {
     position: relative
 }
 .solutions-section h2 {
-    font: 36px/1.3 roboto-medium-webfont, sans-serif;
+    /*font: 36px/1.3 roboto-medium-webfont, sans-serif;*/
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 36px;
+    font-weight: bold;
     color: #0078ae;
     margin: 0 0 70px
 }
@@ -3443,7 +3471,7 @@ a:hover .fss-step-number em {
     margin-bottom: 20px;
     position: relative;
     font: 16px/1.2 roboto-bold-webfont, sans-serif;
-	width:280px;
+    width:280px;
 }
 .solutions-section h3 a {
     display: block;
@@ -5805,7 +5833,7 @@ a:hover .fss-step-number em {
         top: 5px;
         left: 10px;
         background: url(../images/logo1.png) no-repeat;
-		background-size: 260px 95px;
+        background-size: 260px 95px;
         width: 260px;
         height: 95px;
         transition: all .1s ease-out
@@ -6625,27 +6653,27 @@ a:hover .fss-step-number em {
 @media only screen and (max-width: 768px) and (min-width: 321px) {
     .logo a {
         background: url(../images/logo1.png) no-repeat;
-		background-size: 180px 50px;
-		margin-top: -10px;
-		margin-left: 25%;
-		height: 50px;
+        background-size: 180px 50px;
+        margin-top: -10px;
+        margin-left: 25%;
+        height: 50px;
         width: 180px
     }
 }
 @media only screen  and (max-width: 320px){
-.logo a {
-    background: url(../images/logo1.png) no-repeat;
-    background-size: 180px 50px;
-    margin-top: -10px;
-    /* margin-left: 20%; */
-    height: 50px;
-    width: 180px;
-}
+    .logo a {
+        background: url(../images/logo1.png) no-repeat;
+        background-size: 180px 50px;
+        margin-top: -10px;
+        /* margin-left: 20%; */
+        height: 50px;
+        width: 180px;
+    }
 }
 @media only screen and (min-width: 881px) {
     .logo {
         background: url(../images/logo1.png) no-repeat;
-		background-size:200px 80px;
+        background-size:200px 80px;
     }
     .simple-header.h-animated .logo {
         top: 20px;
