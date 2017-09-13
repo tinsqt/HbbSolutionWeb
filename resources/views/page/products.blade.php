@@ -9,7 +9,7 @@
             <div class="content_holder">
                 <div class="page-title">
                     <div class="frame clearfix">
-                        <h1>TRƯỚC &amp; <span>SAU</span></h1>
+                        <h1>{!!trans('home.beforafter')!!}</h1>
                     </div>
                 </div>
                 <div class="before-and-after-wrapper">
@@ -26,7 +26,7 @@
                                     <div class="baac-visible-row clearfix">
                                         <div class="baac-item alignleft">
                                             <div class="baac-more baac-more-top">
-                                                <a href="#" data-index="1" data-hash-id="nfl">Trước<span></span></a>
+                                                <a href="#" data-index="1" data-hash-id="nfl">{{trans('home.before')}}<span></span></a>
                                             </div>
                                             <div class="baac-img">
                                                 <a href="#" data-index="1" data-hash-id="nfl">
@@ -35,7 +35,7 @@
                                                 </a>
                                             </div>
                                             <div class="baac-more baac-more-bottom">
-                                                <a href="#" data-index="1" data-hash-id="nfl">Trước<span></span></a>
+                                                <a href="#" data-index="1" data-hash-id="nfl">{{trans('home.before')}}<span></span></a>
                                             </div>
                                         </div>
                                         <div class="baac-item alignright">
@@ -46,7 +46,7 @@
                                                 </a>
                                             </div>
                                             <div class="baac-more">
-                                                <a href="#" data-index="2" data-hash-id="nfl">Sau<span></span></a>
+                                                <a href="#" data-index="2" data-hash-id="nfl">{{trans('home.after')}}<span></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                     <div class="baac-visible-row clearfix">
                                         <div class="baac-item alignleft">
                                             <div class="baac-more baac-more-top">
-                                                <a href="#" data-index="1" data-hash-id="paul-stuart">Trước<span></span></a>
+                                                <a href="#" data-index="1" data-hash-id="paul-stuart">{{trans('home.before')}}<span></span></a>
                                             </div>
                                             <div class="baac-img">
                                                 <a href="#" data-index="1" data-hash-id="paul-stuart">
@@ -136,7 +136,7 @@
                                                 </a>
                                             </div>
                                             <div class="baac-more baac-more-bottom">
-                                                <a href="#" data-index="1" data-hash-id="paul-stuart">Trước<span></span></a>
+                                                <a href="#" data-index="1" data-hash-id="paul-stuart">{{trans('home.before')}}<span></span></a>
                                             </div>
                                         </div>
                                         <div class="baac-item alignright">
@@ -148,7 +148,7 @@
                                             </div>
                                             <div class="baac-more">
                                                 <a href="#" data-index="2"
-                                                   data-hash-id="paul-stuart">Sau<span></span></a>
+                                                   data-hash-id="paul-stuart">{{trans('home.after')}}<span></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -233,7 +233,7 @@
                                     <div class="baac-visible-row clearfix">
                                         <div class="baac-item alignleft">
                                             <div class="baac-more baac-more-top">
-                                                <a href="#" data-index="1" data-hash-id="epic-reads">Trước<span></span></a>
+                                                <a href="#" data-index="1" data-hash-id="epic-reads">{{trans('home.before')}}<span></span></a>
                                             </div>
                                             <div class="baac-img">
                                                 <a href="#" data-index="1" data-hash-id="epic-reads">
@@ -242,7 +242,7 @@
                                                 </a>
                                             </div>
                                             <div class="baac-more baac-more-bottom">
-                                                <a href="#" data-index="1" data-hash-id="epic-reads">Trước<span></span></a>
+                                                <a href="#" data-index="1" data-hash-id="epic-reads">{{trans('home.before')}}<span></span></a>
                                             </div>
                                         </div>
                                         <div class="baac-item alignright">
@@ -254,7 +254,7 @@
                                             </div>
                                             <div class="baac-more">
                                                 <a href="#" data-index="2"
-                                                   data-hash-id="epic-reads">Sau<span></span></a>
+                                                   data-hash-id="epic-reads">{{trans('home.after')}}<span></span></a>
                                             </div>
                                         </div>
                                     </div>

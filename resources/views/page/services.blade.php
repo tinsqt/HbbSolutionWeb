@@ -11,20 +11,20 @@
 
                     <div class="top-page-panel static-sublevel">
                         <div class="frame clearfix anim-start">
-                            <strong class="ttl fade-anim">Dịch Vụ</strong>
+                            <strong class="ttl fade-anim">{{trans('home.service')}}</strong>
                             <ul class="tpp-nav">
 
                                 <li class="">
-                                    <a class="fade-anim" href="{{asset('')}}dich-vu-hbb.html">Trí Tuệ<br> Nhân Tạo</a>
+                                    <a class="fade-anim" href="{{asset('')}}dich-vu-hbb.html">{!!trans('home.ttnt2')!!}</a>
 
                                 </li>
                                 <li class="">
-                                    <a class="fade-anim" href="{{asset('')}}dich-vu-hbb.html">Xây Dựng <br />Website</a>
+                                    <a class="fade-anim" href="{{asset('')}}dich-vu-hbb.html">{!!trans('home.xdweb2')!!}</a>
 
                                 </li>
 
                                 <li class="">
-                                    <a class="fade-anim" href="{{asset('')}}dich-vu-hbb.html">Xây Dựng <br /> Mobile Apps</a>
+                                    <a class="fade-anim" href="{{asset('')}}dich-vu-hbb.html">{!!trans('home.xdapp2')!!}</a>
 
                                 </li>
 
@@ -38,8 +38,8 @@
                             <div class="bg full-height">
                                 <div class="frame clearfix">
                                     <div class="s-left">
-                                        <h1><strong>Xây Dựng Thương Hiệu Với<br> AI Dựa Trên Giải Pháp Thông Minh</strong></h1>
-                                        <p>Tất cả các dịch vụ giúp bạn <br><strong>phát triển thương hiệu trực tuyến</strong></p>
+                                        <h1>{!!trans('home.xdth')!!}</h1>
+                                        <p>{!!trans('home.alldichvu')!!}</p>
                                     </div>
                                     <div class="s-right"></div>
                                 </div>

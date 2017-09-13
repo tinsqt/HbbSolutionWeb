@@ -15,9 +15,9 @@
             <div class="top-section">
                 <div class="frame clearfix" style="padding: 30px 0px">
                     <div class="col-md-6 project-info">
-                        <h2 style="color: #0078ae"><strong>Các đối tác</strong><br></h2>
-                        <p>Chúng tôi được tín nhiệm bởi các công ty có quy mô lớn trên thế giới.</p>
-                        <p>HBB Solutions đã có cơ hội làm việc với một số tên tuổi lớn trong giới doanh nghiệp cũng như nhiều công ty khởi nghiệp tiềm năng.</p>
+                        <h2 style="color: #0078ae"><strong>{{trans('home.clients')}}</strong><br></h2>
+                        <p>{{trans('home.tinnhiem')}}</p>
+                        <p>{{trans('home.cohoi')}}</p>
                     </div>
                     <div class="col-md-6">
                         <img src="images/bg/bg-client.png" class="img-responsive">
@@ -35,7 +35,7 @@
             </a>
             <div class="fss-frame" style="padding-top: 50px">
                 <h2>
-                    <span>CÁC ĐỐI TÁC</span>
+                    <span>{{trans('home.clients')}}</span>
                 </h2>
                 <div class="container imgclient" style="padding-bottom: 50px">
                     <div class="imgclient">

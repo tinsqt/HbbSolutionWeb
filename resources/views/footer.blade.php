@@ -1,25 +1,25 @@
 <div class="foot-area anim-section">
     <div class="rd-box-holder">
         <div class="rd-box stream">
-            <strong class="txt">Sẵn sàng để thảo luận về dự án của bạn?</strong>
-            <a class="btn-simple link-arrow" href="#">Liên Hệ Ngay</a>
+            <strong class="txt">{{trans('home.thaoluan')}}</strong>
+            <a class="btn-simple link-arrow" href="#">{{trans('home.lienhengay')}}</a>
         </div>
     </div>
 
 
     <div class="subscribe jq-newsletter-container">
-        <strong class="ttl">Đăng ký để nhận những xu hướng công nghệ mới nhất.</strong>
+        <strong class="ttl">{{trans('home.dangky')}}</strong>
         <div class="subscribe-form" id="footer-newsletter-form-container">
             <form id="footer-newsletter-form" action="javascript:void(0);" method="post">
                 <div class="esu-input" id="footer-newsletter-container">
 
-                    <input type="text"  name="email" id="email" value="" placeholder="Nhập email">            </div>
-                <a class="btn-simple link-arrow" id="signUpBtn" href="#" onclick="thank();return false;" >Đăng ký</a>
+                    <input type="text"  name="email" id="email" value="" placeholder="{{trans('home.email')}}">            </div>
+                <a class="btn-simple link-arrow" id="signUpBtn" href="#" onclick="thank();return false;" >{{trans('home.register')}}</a>
                 <input type="hidden" name="nl_type" value="nl_footer" />
             </form>
         </div>
         <div id="footer-newsletter-thankyou-container" class="thank-you-message" style="display: none;">
-            Cảm ơn!
+            {{trans('home.thank')}}
         </div>
         <div id="footer-newsletter-message" class="message" style="display: none;"></div>
     </div>
@@ -31,7 +31,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 342 463">
                     <path d="M172 463s21-75 90-137c68-63 86-122 78-180C314-49 27-49 2 146c-8 58 10 117 78 180 68 62 92 137 92 137zm-2-401c59 0 106 47 106 106s-47 106-106 106S64 227 64 168 111 62 170 62z" />
                 </svg>
-                <span>Địa Chỉ</span>
+                <span>{{trans('home.diachi')}}</span>
             </strong>
             <div class="t-holder">
                 <div class="location-cell t-cell loc-ny">
@@ -84,7 +84,7 @@
         <div class="frame">
             <div class="socials" style="padding: 10px">
                 <div class="col-md-8 text-left ">
-                    <h4 class="ttl">Tham Gia Mạng Xã Hội Với HBBS <a style="" class="soc-fb" target="_blank" href="https://www.facebook.com/hbbsolutions/">
+                    <h4 class="ttl">{{trans('home.thamgia')}} <a style="" class="soc-fb" target="_blank" href="https://www.facebook.com/hbbsolutions/">
                             <span class="icn"></span>
                         </a></h4>
                 </div>
@@ -103,11 +103,11 @@
     <div class="f-menu-wrapper">
         <div class="f-menu-content frame">
             <ul class="fmc-list clearfix" id="TabmenuF">
-                <li class="link"><a href="#">Sản Phẩm</a></li>
-                <li class="link"><a href="#">Dịch Vụ</a></li>
-                <li class="link"><a href="#">Đối tác</a></li>
-                <li class="link"><a href="#">Giới Thiệu</a></li>
-                <li class="link"><a href="#">Liên Hệ</a></li>
+                <li class="link"><a href="#">{{trans('home.product')}}</a></li>
+                <li class="link"><a href="#">{{trans('home.service')}}</a></li>
+                <li class="link"><a href="#">{{trans('home.client')}}</a></li>
+                <li class="link"><a href="#">{{trans('home.about')}}</a></li>
+                <li class="link"><a href="#">{{trans('home.contact')}}</a></li>
 
             </ul>
             <div class="fmc-copyright">

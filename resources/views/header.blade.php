@@ -44,16 +44,16 @@
                     <ul class="nav-submenu">
 
                         <li>
-                            <a href="{{asset('')}}dich-vu-hbb.html">Giải Pháp Thông Minh</a>
+                            <a href="{{asset('')}}dich-vu-hbb.html">{{trans('home.gptm')}}</a>
 
                         </li>
                         <li>
-                            <a href="{{asset('')}}dich-vu-hbb.html">Xây Dựng Web</a>
+                            <a href="{{asset('')}}dich-vu-hbb.html">{{trans('home.menuxd')}}</a>
 
                         </li>
 
                         <li>
-                            <a href="{{asset('')}}dich-vu-hbb.html">Xây Dựng Mobile Apps</a>
+                            <a href="{{asset('')}}dich-vu-hbb.html">{{trans('home.xdapp')}}</a>
 
                         </li>
                     </ul>

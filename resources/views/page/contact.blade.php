@@ -9,7 +9,7 @@
                 <div class="top-page-panel top-page-panel-visible">
                     <div class="frame clearfix">
                         <div class="tpp-heading">
-                            <h1><span>Liên Hệ</span> Với Chúng Tôi</h1>
+                            <h1>{!!trans('home.lienheus')!!}</h1>
 
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                                 <fieldset class="fancy-form">
                                     <div class="f-row">
                                         <div class="field-title clearfix">
-                                            <span class="label">Họ và Tên</span>
+                                            <span class="label">{{trans('home.hoten')}}</span>
                                             <span class="req">*</span>
                                         </div>
                                         <div class="ff-input">
@@ -39,7 +39,7 @@
                                     </div>
                                     <div class="f-row">
                                         <div class="field-title clearfix">
-                                            <span class="label">Số Điện Thoại</span>
+                                            <span class="label">{{trans('home.sdt')}}</span>
                                         </div>
                                         <div class="ff-input">
 
@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="f-row">
                                         <div class="field-title clearfix">
-                                            <span class="label">Công Ty</span>
+                                            <span class="label">{{trans('home.company')}}</span>
                                         </div>
                                         <div class="ff-input">
 
@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="f-row">
                                         <div class="field-title clearfix">
-                                            <span class="label">Nội Dung:</span>
+                                            <span class="label">{{trans('home.noidung')}}</span>
                                         </div>
                                         <div class="ff-textarea">
 
@@ -68,7 +68,7 @@
                                     </div>
                                     <div class="f-row">
                                         <div class="ff-submit">
-                                            <input type="submit" value="Gửi" class="ff-btn-submit"/>
+                                            <input type="submit" value="{{trans('home.send')}}" class="ff-btn-submit"/>
                                         </div>
                                     </div>
                                 </fieldset>
@@ -77,12 +77,11 @@
                         <div class="ch-contacts-details">
                             <ul class="contact-list">
                                 <li class="addr">
-                                    <strong class="title">Thành Phố HCM</strong>
-                                    <p>244 Cống Quỳnh,<br> Lầu 3, Tòa nhà JABELS,
-                                        <br>Phường Phạm Ngũ Lão, Quận 1</p>
+                                    <strong class="title">{{trans('home.hcmc')}}</strong>
+                                    <p>{!!trans('home.infoadr')!!}</p>
                                 </li>
                                 <li class="phone">
-                                    <p>Liên lạc với chúng tôi</p>
+                                    <p>{{trans('home.llus')}}</p>
                                     <strong class="title">(+84) 8 225 324 89</strong>
                                 </li>
                                 <li class="fax">
@@ -91,9 +90,9 @@
                                 </li>
                             </ul>
                             <div class="hiring-box">
-                                <strong class="title">Chúng tôi đang tuyển dụng!</strong>
-                                <p>Tham gia phỏng vấn để có cơ hội việc làm tốt nhất.</p>
-                                <p><a href="careers.php" class="arrow-link">Xem chi tiết </a></p>
+                                <strong class="title">{{trans('home.tuyendung')}}</strong>
+                                <p>{{trans('home.phongvan')}}</p>
+                                <p><a href="careers.php" class="arrow-link">{{trans('home.chitiet')}} </a></p>
                             </div>
                         </div>
                     </div>
